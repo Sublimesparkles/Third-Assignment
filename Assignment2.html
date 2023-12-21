@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wp-pusher-checkout</title>
+    <link rel="stylesheet" href="./Assignment2.css">
+
+</head>
+<body>
+   <div class="wrapper">
+    <header>
+        <div class="logo">
+            <img src="./wppusher-logo copy.png" alt="wp_pusher_logo_copy">
+        </div>
+        <nav>
+        <ul class="breadcrumb">
+            <li class="breadcrumb_item"><a href="#">Download</a></li>
+            <li class="breadcrumb_item"><a href="#">Learn More</a></li>
+            <li class="breadcrumb_item"><a href="#">Pricing</a></li>
+            <li class="breadcrumb_item"><a href="#">Help</a></li>
+            <li class="breadcrumb_item"><a href="#">Account</a></li></ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="account_info">
+        <div class="title"><h2>Checkout</h2></div>
+        <div class="Basic_info">
+            <h2><span id="one">1</span>Your Basic Information</h2>
+            <form action="/" method="post">
+            <div class="flex-container">
+                <div class="flexitem">
+                    <label for="Firstname"> First Name</label><br>
+                <input type="text" name="Firstname" placeholder="Jane">
+                </div>
+                
+                <div class="flexitem">
+                    <label for="Lastname">Last Name</label><br>
+                <input type="text" name="Lastname" placeholder="Doe">
+                </div>
+            </div>
+                <div class="Email_address">
+                    <label for="E-mail">E-mail</label><br>
+                    <input type="email" name="E-mail" placeholder="janedoe@example.com">
+                </div>
+            </form>
+
+        </div>
+        <div class="Payment_Info">
+            <h2><span id="two">2</span>Payment Information</h2>
+            <div class="Card_details">
+                <label for="Credit_card">Credit Card</label><br>
+                <div class="container">
+            <input type="tel" name="Credit_card" placeholder="Card number" id="Card_number">
+            <input type="tel" name="Expiry_date" placeholder="MM / YY" id="Expiry_date">
+            <input type="tel" name="CVC" placeholder="CVC" id="CVC" style="flex-basis: 130px;"></div>
+
+            </div> 
+        </div>
+        <div class="buy_wp_pusher">
+            <button type="submit">Buy WP Pusher</button>
+            <div id="help">Need any help?. <span class="support">Don't hesitate to <div id="contact">contact</div>support!</span></div>
+            <img src="./powered_by_stripe.png" alt="Powered_by_stripe">
+        </div>
+    </div>
+       <div class="aside">
+       <aside>
+        <section class="Freelancer_tips">
+        <p id="Freelancer">Freelancer</p>
+        <span id="dollar">$</span><span id="ninety_nine">99</span><span id="per_year">/ year</span>
+        <p id="renewal_period">Automatically renews after 1 year</p>
+        <div class="advantages">
+            <p class="advantage1">Use on <span style="font-weight: 700;">5</span> client sites</p>
+            <p class="advantage2">Private repositories</p>
+            <p class="advantage3">Email support</p>
+        </div>
+       </section>
+        <p id="client_sites">Need <span style="font-weight: 700; letter-spacing: -0.008px;">20</span> client sites?</p>
+        <a href="/" style="color: #fff;" id="Agency_plan">Switch to the Agency plan</a>
+        <article class="User_review">
+          <div class="comment">FTP is horrible to deal with. <span style="font-style: italic; font-weight: 700;">WP Pusher</span> solves that issue, and the customer support is awesome!
+          </div>
+          <span class="image_container">
+            <img src="/about/Bitmap.png" alt="Picture_0f_Kirk_Beard">
+          <span style="font-size: 16px; font-weight: 700;">Kirk Beard</span></span>
+        </article>
+    </aside>
+</div>
+</div>
+<footer>
+    &copy; 2018 WP Pusher IVS . <a href="/" id="TOS"> Terms of service</a>
+</footer>
+   </div> 
+</body>
+</html>
